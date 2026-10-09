@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #202A5A;
+  --color-midnight-light: #2D3A7A;
+  --color-brand-cyan: #0891B2;
+  --color-brand-cyan-hover: #0E7490;
+  --color-soft-white: #F5F7FB;
+  --color-pure-white: #FFFFFF;
+  --color-text-primary: #25304A;
+  --color-text-secondary: #64748B;
+  --color-app-border: #E2E8F0;
+  --color-light-cyan: #CFFAFE;
+  --color-mint-green: #D1FAE5;
+  --color-app-success: #047857;
+  --color-app-warning: #D97706;
+  --color-app-error: #DC2626;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  --midnight: #202A5A;
+  --cyan: #0891B2;
+  --soft-white: #F5F7FB;
+  --white: #FFFFFF;
+  --primary-text: #25304A;
+  --secondary-text: #64748B;
+  --border: #E2E8F0;
+  --light-cyan: #CFFAFE;
+  --mint-green: #D1FAE5;
+  --success: #047857;
+  --warning: #D97706;
+  --error: #DC2626;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F5F7FB;
+  color: #25304A;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars for data tables and previews */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

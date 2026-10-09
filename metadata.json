@@ -1,0 +1,6 @@
+{
+  "name": "RecordWise AI — Land Record Digitization & Validation",
+  "description": "From Old Land Records to Trusted Digital Data. Intelligent OCR extraction, multi-tier validation, duplicate detection, and human review system for Smart India Hackathon 2026 (SIH26018, Ministry of Rural Development).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
